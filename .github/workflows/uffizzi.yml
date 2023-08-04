@@ -138,7 +138,7 @@ jobs:
       uses: UffizziCloud/cluster-action@image_version
       with:
         cluster-name: pr-${{ github.event.pull_request.number }}
-        server: https://6cd8-62-4-42-246.ngrok.io
+        server: https://2b7b-62-4-42-246.ngrok.io
         image: uffizzi/cli:pr-285
     - name: Kustomize and Apply Manifests
       id: prev
